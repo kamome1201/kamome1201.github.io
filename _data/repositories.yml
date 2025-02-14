@@ -1,5 +1,5 @@
 github_users:
-  - kamome1201
+  - kfuku52
 
 repo_description_lines_max: 2
 
@@ -14,8 +14,8 @@ github_repos:
 #  - mathjax/MathJax
 #  - jpswalsh/academicons
 
-  - kamome1201/csubst
-  - kamome1201/amalgkit
-  - kamome1201/RADTE
-  - kamome1201/cdskit
-  - kamome1201/nwkit
+  - kfuku52/csubst
+  - kfuku52/amalgkit
+  - kfuku52/RADTE
+  - kfuku52/cdskit
+  - kfuku52/nwkit
