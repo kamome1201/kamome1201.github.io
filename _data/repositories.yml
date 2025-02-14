@@ -1,15 +1,21 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - kamome1201
 
 repo_description_lines_max: 2
 
 github_repos:
-  - george-gca/multi-language-al-folio
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+
+#  - george-gca/multi-language-al-folio
+#  - alshedivat/al-folio
+#  - jekyll/jekyll
+#  - twbs/bootstrap
+#  - jquery/jquery
+#  - FortAwesome/Font-Awesome
+#  - mathjax/MathJax
+#  - jpswalsh/academicons
+
+  - kamome1201/csubst
+  - kamome1201/amalgkit
+  - kamome1201/RADTE
+  - kamome1201/cdskit
+  - kamome1201/nwkit
