@@ -2,20 +2,21 @@
 page_id: profiles
 layout: profiles
 permalink: /people/
-title: people
-description: members of the lab or group
+title: メンバー
+description: membros do grupo de pesquisa ou laboratório
 nav: true
 nav_order: 2
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
+
   - align: left
     image: prof_pic.jpg
     content: about_kenji_fukushima.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>555 seu telefone do trabalho</p>
+      <p>123 seu endereço</p>
+      <p>Sua cidade, estado 12345</p>
 ---

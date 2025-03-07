@@ -45,8 +45,8 @@ $(document).ready(function () {
     if (jupyterTheme == "dark") {
       $(this).bind("load", function () {
         $(this).contents().find("body").attr({
-          "data-jp-theme-light": "false",
-          "data-jp-theme-name": "JupyterLab Dark",
+          "data-ja-theme-light": "false",
+          "data-ja-theme-name": "JupyterLab Dark",
         });
       });
     }

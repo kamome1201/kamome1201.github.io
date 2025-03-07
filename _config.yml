@@ -2,11 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "Kenji FUkushima lab (assumed)" # the website title (if blank, full name will be used instead)
+title: Kenji Fukushima lab # the website title (if blank, full name will be used instead)
 first_name: Kenji
 middle_name:
-last_name: Fukushima
-keywords: plant, evolution, laboratory # add your own keywords or leave empty
+last_name: Fukushia
+email: kfuku52@gmail.com
+keywords: # add your own keywords or leave empty
+
+lang: en-us # the language of the site
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://kamome1201.github.io # the base hostname & protocol for your site
@@ -258,8 +261,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kenji]
+  first_name: [Fukushima]
 
   style: apa
   locale: en
@@ -281,6 +284,8 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+#  sort_by: year, month
+#  sort_order: descending, descending
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
@@ -314,7 +319,9 @@ filtered_bibtex_keywords:
     slides,
     supp,
     video,
-    website,
+    website
+    url,
+    preprint
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
@@ -339,8 +346,8 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br", "fr-ca"]
-default_lang: "en-us"
+languages: ["en-us", "ja", "fr-ca"] # * * * * * * * * * * * * [2025.3.6 Changed] added "ja" * * * * * * * * * * * * 
+default_lang: "en-us" #   
 exclude_from_localization: ["assets"]
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
@@ -627,8 +634,8 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume_en-us
     json: assets/json/resume_en-us.json # it can also be an url
-  - data: resume_pt-br
-    json: assets/json/resume_pt-br.json # it can also be an url
+  - data: resume_ja
+    json: assets/json/resume_ja.json # it can also be an url
 
 jsonresume:
   - basics

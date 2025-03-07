@@ -2,8 +2,8 @@
 page_id: publications
 layout: page
 permalink: /publications/
-title: publicações
-description: publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.
+title: 論文
+description: 当研究室から発表した論文を、最新のものからリストしています。
 nav: true
 nav_order: 2
 ---

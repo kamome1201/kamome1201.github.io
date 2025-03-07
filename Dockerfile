@@ -63,6 +63,7 @@ WORKDIR /srv/jekyll
 # install jekyll and dependencies
 RUN gem install --no-document jekyll bundler
 RUN bundle install --no-cache
+# RUN gem install jekyll-multiple-languages-plugin # * * * * * * * * * * * * [2025.3.6] I guess this is not necessary for NEW multi-language-al-folio * * * * * * * * * * * * 
 
 EXPOSE 8080
 

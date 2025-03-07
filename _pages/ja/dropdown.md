@@ -1,7 +1,7 @@
 ---
 id: dropdown
 layout: page
-title: submenus
+title: その他
 nav: true
 nav_order: 8
 dropdown: true

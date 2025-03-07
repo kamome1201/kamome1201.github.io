@@ -1,5 +1,6 @@
 github_users:
-  - kfuku52
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
@@ -14,8 +15,17 @@ github_repos:
 #  - mathjax/MathJax
 #  - jpswalsh/academicons
 
-  - kfuku52/csubst
-  - kfuku52/amalgkit
-  - kfuku52/RADTE
-  - kfuku52/cdskit
-  - kfuku52/nwkit
+  - george-gca/multi-language-al-folio
+  - alshedivat/al-folio
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
+
+#  - kfuku52/csubst
+#  - kfuku52/amalgkit
+#  - kfuku52/RADTE
+#  - kfuku52/cdskit
+#  - kfuku52/nwkit

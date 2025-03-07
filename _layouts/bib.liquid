@@ -165,6 +165,16 @@
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
     {% endif %}
+
+    {% capture entryvolume %}{% endcapture %}
+    {% if entry.volume %}
+      {% capture entryvolume %}{{ " " }}{{entry.volume}}{% endcapture %}
+    {% endif %}
+    {% capture entrypages %}{% endcapture %}
+    {% if entry.pages %}
+      {% capture entrypages %}{{ " " }}{{entry.pages}}{% endcapture %}
+    {% endif %}
+
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
     {% endif -%}
@@ -175,8 +185,9 @@
     {% if hook_exists == 'true' %}
       {% include hook/bib.liquid %}
     {% endif %}
+
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }} {{entryvolume}}: {{entrypages}}{% if entrytype_text != "" and entryyear != "" %}. {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
@@ -200,6 +211,20 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
+
+      {% if entry.url %}
+        <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
+      {% endif %}
+      {% if entry.preprint %}
+        <a href="{{ entry.preprint }}" class="btn btn-sm z-depth-0" role="button">PREPRINT</a>
+      {% endif %}
+      {% if entry.pmid %}
+        <a href="https://pubmed.ncbi.nlm.nih.gov/{{ entry.pmid }}" class="btn btn-sm z-depth-0" role="button">PUBMED</a>
+      {% endif %}
+      {% if entry.correction %}
+        <a href="{{ entry.correction }}" class="btn btn-sm z-depth-0" role="button">CORRECTION</a>
+      {% endif %}
+
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}

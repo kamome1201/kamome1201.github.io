@@ -21,7 +21,7 @@ categories:
 citation:
   bibtex: "ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"
-contact_note: Você pode até adicionar uma pequena observação sobre qual dessas é a melhor maneira de entrar em contato com você.
+contact_note: Since 2018, at the University of Würzburg in Germany. Since 2024, at the National Institute of Genetics in Japan.
 cv:
   address: Endereço
   area: Área
@@ -55,9 +55,9 @@ cv:
   position: Posição
   postalCode: Código postal
   present: Presente
-  profiles: Perfis
-  projects: Projetos
-  publications: Publicações
+  profiles: 当研究室のメンバー一覧です。
+  projects: 当研究室で取り組む研究プロジェクトの一部です。進行中のものに加えて、一旦終了し再開可能なプロジェクトも含まれています。
+  publications: '当研究室から発表した論文を、最新のものから順にリストしています。†: 共筆頭著者. *: (共)責任著者.'
   publisher: Editora
   reference: Referência
   references: Referências
@@ -78,9 +78,9 @@ footer:
   copyright: Direitos autorais
   last_updated: "Última atualização:"
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Desenvolvido em <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> com o tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
-  Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Fotos do <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+# Fotos do <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 latest_posts: últimas postagens
 months:
   long:
