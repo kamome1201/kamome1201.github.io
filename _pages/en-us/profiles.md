@@ -3,16 +3,46 @@ page_id: profiles
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+description: Current lab members
 nav: true
 nav_order: 2
+position_order:
+  - professor
+  - associate_professor
+  - assistant_professor
+  - lecturer
+  - tech_staff
+  - lab_manager
+  - postdoc
+  - phd
+  - master
+  - intern
+  - undergraduate
+  - technician
+  - secretary
+  - staff
+  - alumni
+  - visiting
+  - collaborator
+  - other
+  - future
+
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
-    image: prof_pic.jpg
-    content: about_kenji_fukushima.md
+    image: people/kenji_fukushima.jpg
+    content: kenji_fukushima.md
+    image_circular: false # crops the image to make it circular
+
+---
+<!--profiles:
+  # if you want to include more than one profile, just replicate the following block
+  # and create one content file for each profile inside _pages/
+  - align: left
+    image: /assets/img/people/kenji_fukushima.jpg
+    content: kenji_fukushima.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>

@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Kenji Fukushima lab # the website title (if blank, full name will be used instead)
+title: Fukushima lab # the website title (if blank, full name will be used instead)
 first_name: Kenji
 middle_name:
 last_name: Fukushia
@@ -10,7 +10,7 @@ email: kfuku52@gmail.com
 keywords: # add your own keywords or leave empty
 
 lang: en-us # the language of the site
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🌱️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://kamome1201.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -49,7 +49,7 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 1000px
+max_width: 950px # * * * * * * * * * * [change 2025.3.12] change from 1000px along with the original site * * * * * * * * * * 
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -96,7 +96,8 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
+# * * * * * * * * * * [change 2025.3.12] change from blank to kamome1201/kamome1201.github.io * * * * * * * * * * 
+  repo: kamome1201/kamome1201.github.io # <your-github-user-name>/<your-github-repo-name>
   repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: # leave empty or specify your category_id (see https://giscus.app/)
@@ -108,7 +109,8 @@ giscus:
   emit_metadata: 0
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: multi-language-al-folio # put your disqus shortname
+# * * * * * * * * * * [change 2025.3.12] change next from blank to kamome1201/kamome1201.github.io * * * * * * * * * * 
+# disqus_shortname: multi-language-al-folio # put your disqus shortname 
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -253,8 +255,10 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+# * * * * * * * * * * [change 2025.3.12] change from ["formatting", "images", "links", "math", "code", "blockquotes"] to blanke * * * * * * * * * * 
+display_tags: [] # these tags will be displayed on the front page of your blog
+# * * * * * * * * * * [change 2025.3.12] change from ["external-services"] to blanke * * * * * * * * * * 
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

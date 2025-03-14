@@ -10,6 +10,8 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
+<link rel="stylesheet" href="{{ 'assets/css/publications.css' | relative_url }}">
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}

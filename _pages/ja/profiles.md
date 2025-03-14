@@ -6,6 +6,27 @@ title: メンバー
 description: membros do grupo de pesquisa ou laboratório
 nav: true
 nav_order: 2
+position_order:
+  - professor
+  - associate_professor
+  - assistant_professor
+  - lecturer
+  - tech_staff
+  - lab_manager
+  - postdoc
+  - phd
+  - master
+  - intern
+  - undergraduate
+  - technician
+  - secretary
+  - staff
+  - alumni
+  - visiting
+  - collaborator
+  - other
+  - future
+---
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

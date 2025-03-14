@@ -1,12 +1,12 @@
 ---
 page_id: projects
 layout: page
-title: プロジェクト
+title: 研究内容
 permalink: /projects/
-description: Uma crescente coleção de seus projetos interessantes.
+description: 当研究室で取り組む研究の紹介です。
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [work, fun] # 何かとリンクしている、変えると内容が反映されなくなる
 horizontal: false
 ---
 
