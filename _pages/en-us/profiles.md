@@ -36,6 +36,36 @@ profiles:
     content: kenji_fukushima.md
     image_circular: false # crops the image to make it circular
 
+  - align: left
+    image: people/shunsuke_kanamori.jpg
+    content: shunsuke_kanamori.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/yuhan_guo.jpg
+    content: yuhan_guo.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/default.jpg
+    content: sayoko_shirai.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/default.jpg
+    content: yoshino_hashimoto.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/yusuke_asaka.jpg
+    content: yusuke_asaka.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/sakiko_teramoto.jpg
+    content: sakiko_teramoto.md
+    image_circular: false # crops the image to make it circular
+
 ---
 <!--profiles:
   # if you want to include more than one profile, just replicate the following block

@@ -15,9 +15,10 @@ bibliography:
   website: Site
 blog:
   navigation_title: blog
-categories:
-  fun: diversão
-  work: trabalho
+categories: # This categories link /_data/en-us/strings.yml, categories: at least
+  fun: その他
+  work: 業務
+  research: 研究
 citation:
   bibtex: "ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"

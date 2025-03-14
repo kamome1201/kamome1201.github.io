@@ -6,7 +6,7 @@ permalink: /projects/
 description: 当研究室で取り組む研究の紹介です。
 nav: true
 nav_order: 3
-display_categories: [work, fun] # 何かとリンクしている、変えると内容が反映されなくなる
+display_categories: [research] # [research, work, fun] This categories link /_data/en-us/strings.yml, categories:
 horizontal: false
 ---
 

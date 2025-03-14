@@ -3,7 +3,7 @@ page_id: profiles
 layout: profiles
 permalink: /people/
 title: メンバー
-description: membros do grupo de pesquisa ou laboratório
+description: 当研究室のメンバー一覧です。
 nav: true
 nav_order: 2
 position_order:
@@ -26,18 +26,56 @@ position_order:
   - collaborator
   - other
   - future
----
+
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
+  - align: left
+    image: people/kenji_fukushima.jpg
+    content: kenji_fukushima.md
+    image_circular: false # crops the image to make it circular
 
   - align: left
-    image: prof_pic.jpg
-    content: about_kenji_fukushima.md
+    image: people/shunsuke_kanamori.jpg
+    content: shunsuke_kanamori.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/yuhan_guo.jpg
+    content: yuhan_guo.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/default.jpg
+    content: sayoko_shirai.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/default.jpg
+    content: yoshino_hashimoto.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/yusuke_asaka.jpg
+    content: yusuke_asaka.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/sakiko_teramoto.jpg
+    content: sakiko_teramoto.md
+    image_circular: false # crops the image to make it circular
+
+---
+<!--profiles:
+  # if you want to include more than one profile, just replicate the following block
+  # and create one content file for each profile inside _pages/
+  - align: left
+    image: /assets/img/people/kenji_fukushima.jpg
+    content: kenji_fukushima.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 seu telefone do trabalho</p>
-      <p>123 seu endereço</p>
-      <p>Sua cidade, estado 12345</p>
+      <p>555 your office number</p>
+      <p>123 your address street</p>
+      <p>Your City, State 12345</p>
 ---

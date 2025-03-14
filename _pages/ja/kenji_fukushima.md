@@ -2,7 +2,7 @@
 
 福島 健児（ふくしま けんじ）  
 
-Associate Professor  
+准教授  
 
 <div style="display: flex; gap: 10px;">
 <!-- Website -->

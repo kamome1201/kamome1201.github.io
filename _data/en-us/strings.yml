@@ -15,9 +15,10 @@ bibliography:
   website: Website
 blog:
   navigation_title: blog
-categories:
+categories: # This categories link /_data/en-us/strings.yml, categories: at least
   fun: fun
   work: work
+  research: research
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
