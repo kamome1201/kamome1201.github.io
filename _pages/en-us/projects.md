@@ -5,7 +5,7 @@ title: research
 permalink: /projects/
 description: Our research
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [research] # [research, work, fun] This categories link /_data/en-us/strings.yml, categories:
 horizontal: false
 ---

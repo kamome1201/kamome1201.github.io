@@ -350,7 +350,7 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "ja", "fr-ca"] # * * * * * * * * * * * * [2025.3.6 Changed] added "ja" * * * * * * * * * * * * 
+languages: ["en-us", "ja"] # * * * * * * * * * * * * [2025.3.6 Changed] ["en-us", "ja", "fr-ca"] * * * * * * * * * * * * 
 default_lang: "en-us" #   
 exclude_from_localization: ["assets"]
 lang_from_path: true

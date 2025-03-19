@@ -3,10 +3,10 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: ブログ
-blog_name: al-folio em português brasileiro
-description: um tema simples para acadêmicos
+blog_name: # [2025.3.19 changed] from al-folio em português brasileiro
+description: # [2025.3.19 changed] from um tema simples para acadêmicos
 nav: true
-nav_order: 1
+nav_order: 7
 pagination:
   enabled: true
   collection: posts

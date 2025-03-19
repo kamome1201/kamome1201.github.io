@@ -5,7 +5,7 @@ title: 研究内容
 permalink: /projects/
 description: 当研究室で取り組む研究の紹介です。
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [research] # [research, work, fun] This categories link /_data/en-us/strings.yml, categories:
 horizontal: false
 ---

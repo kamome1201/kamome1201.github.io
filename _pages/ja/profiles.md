@@ -33,37 +33,42 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: left
     image: people/kenji_fukushima.jpg
-    content: kenji_fukushima.md
-    image_circular: false # crops the image to make it circular
-
-  - align: left
-    image: people/shunsuke_kanamori.jpg
-    content: shunsuke_kanamori.md
-    image_circular: false # crops the image to make it circular
-
-  - align: left
-    image: people/yuhan_guo.jpg
-    content: yuhan_guo.md
-    image_circular: false # crops the image to make it circular
-
-  - align: left
-    image: people/default.jpg
-    content: sayoko_shirai.md
-    image_circular: false # crops the image to make it circular
-
-  - align: left
-    image: people/default.jpg
-    content: yoshino_hashimoto.md
-    image_circular: false # crops the image to make it circular
-
-  - align: left
-    image: people/yusuke_asaka.jpg
-    content: yusuke_asaka.md
+    content: people_pages/kenji_fukushima.md
     image_circular: false # crops the image to make it circular
 
   - align: left
     image: people/sakiko_teramoto.jpg
-    content: sakiko_teramoto.md
+    content: people_pages/sakiko_teramoto.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/shunsuke_kanamori.jpg
+    content: people_pages/shunsuke_kanamori.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/yuhan_guo.jpg
+    content: people_pages/yuhan_guo.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/default.jpg
+    content: people_pages/sayoko_shirai.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/default.jpg
+    content: people_pages/yoshino_hashimoto.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/yusuke_asaka.jpg
+    content: people_pages/yusuke_asaka.md
+    image_circular: false # crops the image to make it circular
+
+  - align: left
+    image: people/sakiko_teramoto.jpg
+    content: people_pages/sakiko_teramoto.md
     image_circular: false # crops the image to make it circular
 
 ---

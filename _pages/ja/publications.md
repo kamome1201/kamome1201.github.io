@@ -5,7 +5,7 @@ permalink: /publications/
 title: 論文
 description: 当研究室から発表した論文を、最新のものからリストしています。
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->
