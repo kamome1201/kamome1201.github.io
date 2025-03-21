@@ -248,6 +248,8 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  white-space: nowrap; /* * * * * * * * * * * [2024.3.21 changed] 折り返しを防ぐ * * * * * * * * * * */
+  flex-wrap: nowrap !important; /* * * * * * * * * * * [2024.3.21 changed] 1行に固定 * * * * * * * * * * */
 }
 
 .navbar .dropdown-menu {
