@@ -37,11 +37,6 @@ profiles:
     image_circular: false # crops the image to make it circular
 
   - align: left
-    image: people/sakiko_teramoto.jpg
-    content: people_pages/sakiko_teramoto.md
-    image_circular: false # crops the image to make it circular
-
-  - align: left
     image: people/shunsuke_kanamori.jpg
     content: people_pages/shunsuke_kanamori.md
     image_circular: false # crops the image to make it circular
