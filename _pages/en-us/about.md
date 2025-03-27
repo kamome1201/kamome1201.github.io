@@ -26,5 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Evolution has led to remarkable innovations in the structures and functions of organisms, sometimes reaching levels that seem almost unbelievable. Our research aims to demystify these evolutionary marvels. We integrate computational and experimental approaches to study a wide range of organisms, particularly focusing on plants. 
-Our primary interest lies in insect-trapping carnivorous plants, which derive nutrients from their captured prey. By studying these unique plants, our research enhances understanding of key concepts in evolutionary biology, including convergent evolution, co-option, drastic morphological changes, preadaptation, phenotypic plasticity, biological interactions, and whole-genome duplication.
+Evolution has led to remarkable innovations in the structures and functions of organisms, sometimes reaching levels that seem almost unbelievable. Our research aims to demystify these evolutionary marvels by integrating computational and experimental approaches to study a wide range of organisms, with a particular focus on plants.
+
+Our primary interest lies in insect-trapping carnivorous plants, which derive nutrients from their captured prey. By studying these unique plants, we aim to enhance our understanding of key concepts in evolutionary biology.

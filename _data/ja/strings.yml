@@ -22,7 +22,7 @@ categories: # This categories link /_data/en-us/strings.yml, categories: at leas
 citation:
   bibtex: "ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"
-contact_note: Since 2018, at the University of Würzburg in Germany. Since 2024, at the National Institute of Genetics in Japan.
+contact_note: Fukushima lab. 2018-2024 at the University of Würzburg in Germany. 2024-now at the National Institute of Genetics in Japan.
 cv:
   address: Endereço
   area: Área
