@@ -41,8 +41,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-resorces",
-          title: "resorces",
+        },{id: "nav-resources",
+          title: "resources",
           description: "List of research resources developed by Fukushima lab",
           section: "Navigation menu",
           handler: () => {
@@ -75,6 +75,13 @@ ninja.data = [{
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/access/";
+          },
+        },{id: "nav-monitor",
+          title: "monitor",
+          description: "",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/monitor/";
           },
         },{id: "post-ipmb2024で発表",
       

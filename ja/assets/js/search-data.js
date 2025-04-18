@@ -76,6 +76,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ja/access/";
           },
+        },{id: "nav-培養室監視",
+          title: "培養室監視",
+          description: "",
+          section: "Menu de navegação",
+          handler: () => {
+            window.location.href = "/ja/monitor/";
+          },
         },{id: "post-ipmb2024で発表",
       
         title: "IPMB2024で発表",
