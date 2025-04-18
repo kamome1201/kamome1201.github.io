@@ -14,6 +14,8 @@ on:
       - "**.liquid"
       - "**/**.md"
       - "**.yml"
+      - "**.json"              # added for switchbot data at 2025418
+      - "data/**"              # added for switchbot data at 2025418
       - "Gemfile"
       - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
