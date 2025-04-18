@@ -196,5 +196,11 @@
     "temperature": 22.1,
     "humidity": 65,
     "lightLevel": 20
+  },
+  {
+    "timestamp": "2025-04-18T07:48:12.726Z",
+    "temperature": 22.7,
+    "humidity": 63,
+    "lightLevel": 20
   }
 ]
