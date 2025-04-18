@@ -49,7 +49,7 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 950px # * * * * * * * * * * [change 2025.3.12] change from 1000px along with the original site * * * * * * * * * * 
+max_width: 800px # * * * * * * * * * * [change 2025.3.12] change from 1000px along with the original site ,[change 2025. 4. 2] and change 950px from that* * * * * * * * * * 
 
 # TODO: add layout settings (single page vs. multi-page)
 

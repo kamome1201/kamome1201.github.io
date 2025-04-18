@@ -7,7 +7,7 @@ subtitle: Plant Evolution Laboratory at the <a href="https://www.nig.ac.jp/nig/"
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 00_tiles.png
   image_circular: false # crops the image to make it circular
   more_info: >
      <p>Unraveling evolutionary marvels in plants and beyond</p>

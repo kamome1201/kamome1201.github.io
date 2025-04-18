@@ -7,7 +7,7 @@ subtitle: 植物進化研究室 <a href="https://www.nig.ac.jp/nig/ja" target="_
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 00_tiles.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>植物を基軸に脅威の進化を解き明かす</p>
