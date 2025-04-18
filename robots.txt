@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://kamome120.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://kamome1201.github.io/sitemap.xml
