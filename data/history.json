@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2025-05-05T11:40:12.966Z",
-    "temperature": 22.4,
-    "humidity": 43,
-    "lightLevel": 20
-  },
-  {
     "timestamp": "2025-05-05T11:55:12.577Z",
     "temperature": 21.9,
     "humidity": 42,
@@ -573,6 +567,12 @@
     "timestamp": "2025-05-06T11:25:12.797Z",
     "temperature": 22.3,
     "humidity": 63,
+    "lightLevel": 20
+  },
+  {
+    "timestamp": "2025-05-06T11:40:12.569Z",
+    "temperature": 22.8,
+    "humidity": 62,
     "lightLevel": 20
   }
 ]
